@@ -6,7 +6,6 @@ import time
 f = open("this.txt", "w")
 driver = webdriver.Edge()
 
-
 for i in range(124):
     driver.get("http://results.nith.ac.in/scheme23/studentresult/index.asp")
     if i < 9: 
