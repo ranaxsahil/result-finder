@@ -5,8 +5,7 @@ import time
 
 f = open("this.txt", "w")
 driver = webdriver.Edge()
-# driver.get("http://results.nith.ac.in/scheme23/studentresult/index.asp")
-# time.sleep(2)
+
 
 for i in range(124):
     driver.get("http://results.nith.ac.in/scheme23/studentresult/index.asp")
@@ -30,7 +29,6 @@ for i in range(124):
             print(number_text[element])
         if number_text[element] == "=":
             a = 1
-            # print(el)
         else:
             continue
     f.write("   " + rollnumber)
