@@ -2,4 +2,4 @@
 i just made this program in a hurry so it might not look that good 
 
 ## I will make make it better later 
-## If you like it give it a star 
+## If you like it give it a star ⭐ 
